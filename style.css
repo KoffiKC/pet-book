@@ -1,0 +1,202 @@
+.header{
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #d1dffa;
+
+}
+.main_body{
+  display: flex;
+  background-color: #f2f2f2;
+}
+
+.headL{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.headM{
+  display: flex;
+  align-items: center;
+}
+
+.headR{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header img{
+  height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+ .headM img{
+   display: flex;
+   height: 50px;
+   padding-left: 80px;
+   padding-right: 80px;
+ }
+
+ .sidebarL{
+   display: flex;
+   align-items: center;
+   padding: 10px;
+   margin-right: 150px;
+
+ }
+
+ .sideProfile{
+   display: flex;
+   padding-top: 10px;
+   background-size: contain;
+   align-items: center;
+
+ }
+
+ .sidebarL:hover{
+   background-color: #d1dffa;
+   border-radius: 5px;
+   padding: 1px 20px;
+ }
+
+
+.post_cntar{
+  background-color: #e6eeff;
+  border-radius: 50px;
+  padding: 10px 50px;
+  margin: 10px 50px 10px;
+}
+
+.postPro{
+  display: flex;
+  border-radius: 10px;
+  background-color: #e6eeff;
+  padding: 10px 15px;
+  margin: 20px 10px;
+}
+
+.postPro img{
+  Margin: 5px;
+}
+.postPro input{
+  width: 700px;
+}
+
+.posts{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1px;
+  margin-top: -20px;
+}
+
+.postOpts:hover{
+  background-color: #d1dffa;
+  border-radius: 5px;
+  padding: 1px 20px;
+}
+
+
+
+.statusInfo{
+  display: flex;
+  align-items: flex-start;
+  border-radius: 15px;
+  background-color: #d1dffa;
+}
+
+.statusInfo img{
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-right: 80px:
+
+}
+
+.status img{
+  margin-left: 200px;
+}
+
+
+
+.status_Opts{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1px;
+  margin-top: -20px;
+}
+
+
+.statusOpt:hover{
+  background-color: #d1dffa;
+  border-radius: 5px;
+  padding: 1px 20px;
+}
+
+
+.paw_pals{
+  height: 250px;
+  margin-left: 7px;
+  margin-top: 35px;
+  margin-bottom: -10px;
+  border-radius: 15px;
+  background-color: #d1dffb;
+}
+
+.petInQ{
+  display: flex;
+  justify-content: center;
+}
+
+.accpt_declne{
+  display: flex;
+  justify-content: space-evenly;
+  flex: -1;
+  padding: 1px;
+  margin-top: -20px;
+}
+
+.paw_pals h2{
+  display: flex;
+  justify-content: center;
+  margin-left:
+}
+
+.paw_pals h3{
+  display: flex;
+  justify-content: center;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+.accpt{
+  padding: 1px 15px;
+  background-color:  #e6eeff;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.Declne{
+  padding: 1px 25px;
+  background-color:  #e6eeff;
+  border-radius: 100px;
+  margin-bottom: 5px;
+}
+
+.accpt:hover{
+  padding: 1px 15px;
+  background-color: green;
+  border-radius: 50px;
+  margin-bottom: 5px;
+}
+
+.Declne:hover{
+  padding: 1px 25px;
+  background-color: red;
+  border-radius: 100px;
+  margin-bottom: 5px;
+}
